@@ -1,6 +1,7 @@
 export EDITOR=vim
 export HISTFILESIZE=10000 # save 10k commands
 export HISTCONTROL=ignoredupsa # ignore duplicate commands
+export CLICOLOR=1
 export LSCOLORS=Exfxcxdxbxegedabagacad # for MAC OS colorized ls output
 export PS1="\[\033[01;33m\][$USER@$HOSTNAME]\[\033[0;00m\] \[\033[01;32m\]\w\\$\[\033[0;00m\] "
 
