@@ -48,6 +48,10 @@ autocmd BufNewFile,BufRead *.rss setfiletype xml
 " treat .md files as markdown
 autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
+" treat .tf files as terraform
+autocmd BufNewFile,BufRead *.tf set filetype=terraform
+autocmd FileType terraform setlocal ts=2 sts=2 sw=2 expandtab
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Automatic Completion
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
