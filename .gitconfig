@@ -1,0 +1,5 @@
+[alias]
+fa = fetch --all 
+far = fetch --all --recurse-submodules 
+t = log --graph --pretty=oneline --abbrev-commit --decorate --color 
+ta = log --graph --pretty=oneline --abbrev-commit --decorate --color --all
